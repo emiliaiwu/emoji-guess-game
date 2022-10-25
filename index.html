@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emilia Iwu">
+    <script src="https://kit.fontawesome.com/fd9c36575f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Emoji Secret Number Game</title>
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+            <div class="headerBar">
+                <div class="highScoreSection">
+                    <i class="fa-solid fa-medal"></i>
+                    <p class="label-highScore"><span class="highScore">0</span></p>
+                </div>
+                <div class="scoreSection">
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <p class="label-score"><span class="score">10</span></p>
+                </div>
+            </div>
+
+             <h1 class="h1">Guess My Secret Number <span class="number">❓</span></h1>
+                <!-- <p class="hint"><i class="fa-solid fa-face-smile-wink"></i>Between 1 and 20</p> -->
+        </header>
+
+
+        <main class="main">
+            <section class="sectionOne"> 
+                <img class="emoji" id="emoji" src="img/21.png" alt="" width="180px" height="auto">
+                <p class="message">Start Guessing . . .</p>   
+            </section>
+
+            <section class="sectionTwo">
+                <input type="number" class="guess" placeholder=" 1  .  .  .  20"/>
+                <div class="checkRefresh">
+                    <button class="btn check">Check</button>
+                    <button class="btn reset">Reset</button>
+                </div>    
+            </section>
+        </main>
+    </div>
+   
+
+<script src="script2.js"></script>
+</body>
+</html>
